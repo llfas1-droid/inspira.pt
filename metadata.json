@@ -1,0 +1,6 @@
+{
+  "name": "Pinterest pt.pinterest.com CRO & Teardown Studio",
+  "description": "Interactive conversion rate optimization (CRO), behavioral psychology, and messaging teardown of Pinterest Portugal (pt.pinterest.com) with live landing page simulation and growth audit.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
