@@ -90,7 +90,7 @@ export default function App() {
                   </div>
                   <div className="text-xs sm:text-sm">
                     <span className="font-extrabold text-slate-900 block sm:inline">
-                      Bem-vindo(a) ao Inspiria.{' '}
+                      Bem-vindo(a) ao Inspira.{' '}
                     </span>
                     <span className="text-slate-500">
                       Encontre novas ideias para experimentar.
@@ -104,7 +104,7 @@ export default function App() {
                     className="hidden sm:flex text-xs font-bold text-slate-700 hover:text-slate-900 px-3 py-2 rounded-full border border-slate-200 hover:bg-slate-50 transition-colors items-center gap-1.5"
                   >
                     <MessageSquareText className="w-3.5 h-3.5 text-[#E60023]" />
-                    <span>Inspiria Copilot</span>
+                    <span>Agendar com Luisa Lins</span>
                   </button>
                   <button
                     onClick={() => setActiveView('support')}
@@ -180,7 +180,7 @@ export default function App() {
           className="px-4 py-2.5 rounded-full shadow-xl bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold flex items-center gap-2 border border-slate-700 transition-all hover:scale-105 active:scale-95"
         >
           <MessageSquareText className="w-4 h-4 text-rose-400" />
-          <span>{isChatOpen ? 'Minimizar Chat' : 'Inspiria Copilot'}</span>
+          <span>{isChatOpen ? 'Minimizar Chat' : 'Agendar Reunião · Luisa Lins'}</span>
         </button>
 
         {activeView === 'live' && (

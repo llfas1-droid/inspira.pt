@@ -262,7 +262,7 @@ export const TEARDOWN_SECTIONS: TeardownSection[] = [
     psychologicalMechanics: [
       'Dynamic Keyword Insertion: Personaliza o benefício para nichos distintos (culinária, moda, casa) na mesma dobra.',
       'Show, Don\'t Tell: A grelha em cascata substitui 500 palavras de texto explicativo com imagens estimulantes.',
-      'Future Pacing: A palavra "próxima" pressupõe que o utilizador já está numa jornada contínua e o Inspiria é o acelerador.'
+      'Future Pacing: A palavra "próxima" pressupõe que o utilizador já está numa jornada contínua e o Inspira é o acelerador.'
     ],
     keyTakeaways: [
       'Redução drástica do Bounce Rate através de movimento visual suave (floating masonry).',
@@ -290,8 +290,8 @@ export const TEARDOWN_SECTIONS: TeardownSection[] = [
   {
     id: 'benefit2',
     title: 'Seção 3: O Resultado Concreto (Benefício 2)',
-    rawTextPt: 'Veja, faça, experimente, compre. As melhores ideias da internet estão no Inspiria.',
-    rawTextEn: 'See it, make it, try it, buy it. The best ideas on the internet are on Inspiria.',
+    rawTextPt: 'Veja, faça, experimente, compre. As melhores ideias da internet estão no Inspira.',
+    rawTextEn: 'See it, make it, try it, buy it. The best ideas on the internet are on Inspira.',
     functionalGoal: 'Transição do utilizador de mero espectador passivo para agente com intenção ativa. Reenquadra a plataforma como motor de estilo de vida e comércio curado.',
     primaryEmotionalDriver: 'Capacitação pessoal, realização prática e consumo curado.',
     psychologicalMechanics: [
@@ -307,8 +307,8 @@ export const TEARDOWN_SECTIONS: TeardownSection[] = [
   {
     id: 'auth_modal',
     title: 'Seção 4: A Parede de Aquisição (Sticky Auth Modal)',
-    rawTextPt: 'Bem-vindo(a) ao Inspiria. Encontre novas ideias para experimentar.',
-    rawTextEn: 'Welcome to Inspiria. Find new ideas to try.',
+    rawTextPt: 'Bem-vindo(a) ao Inspira. Encontre novas ideias para experimentar.',
+    rawTextEn: 'Welcome to Inspira. Find new ideas to try.',
     functionalGoal: 'Criação de conta com fricção zero via Single Sign-On (Google / Facebook), disparada no momento ideal da intenção.',
     primaryEmotionalDriver: 'Sensação de pertença imediata e urgência de acesso aos conteúdos que viu na tela.',
     psychologicalMechanics: [
@@ -338,7 +338,7 @@ export const PSYCHOLOGICAL_TRIGGERS: PsychologicalTrigger[] = [
     id: 'implicit_proof',
     name: 'Prova Social Implícita',
     portugueseName: 'Volume Visível Curado',
-    description: 'Em vez de usar emblemas artificiais como "Junte-se a 400 milhões de utilizadores", o Inspiria mostra milhares de itens belíssimos organizados com requinte.',
+    description: 'Em vez de usar emblemas artificiais como "Junte-se a 400 milhões de utilizadores", o Inspira mostra milhares de itens belíssimos organizados com requinte.',
     pinterestApplication: 'A densidade e o acabamento dos itens provam instantaneamente que a plataforma está viva, curada por pessoas reais e repleta de valor pronto a consumir.',
     croImpact: 'Evita a fadiga de ceticismo do utilizador contra números corporativos hiperbólicos.',
     behavioralPrinciple: 'Show vitality through content density, not claimed metrics.',
@@ -349,7 +349,7 @@ export const PSYCHOLOGICAL_TRIGGERS: PsychologicalTrigger[] = [
     name: 'Future Pacing (Projeção no Futuro)',
     portugueseName: 'Ritmo Antecipado',
     description: 'A palavra "Próxima" ("Encontre a sua próxima...") induz a mente do leitor a assumir que o ato de ter novas ideias já é um hábito contínuo na sua vida.',
-    pinterestApplication: 'Posiciona o Inspiria não como uma novidade que exige esforço de aprendizagem, mas como o instrumento natural para o que o utilizador já planeava fazer hoje à noite.',
+    pinterestApplication: 'Posiciona o Inspira não como uma novidade que exige esforço de aprendizagem, mas como o instrumento natural para o que o utilizador já planeava fazer hoje à noite.',
     croImpact: '+22% na percepção de relevância pessoal imediata da proposta de valor.',
     behavioralPrinciple: 'Frame adoption as the next logical step in an existing routine.',
     iconName: 'Compass'
@@ -368,7 +368,7 @@ export const PSYCHOLOGICAL_TRIGGERS: PsychologicalTrigger[] = [
 
 export const COPY_FORMULAS = [
   {
-    name: 'Fórmula de Inserção Dinâmica Inspiria',
+    name: 'Fórmula de Inserção Dinâmica Inspira',
     syntax: 'Encontre a sua próxima [Desejo de Nicho Altamente Específico]',
     syntaxEn: 'Find your next [Specific Niche Desire]',
     whyItWorks: 'Segmenta múltiplos perfis de clientes instantaneamente no mesmo espaço nobre, disparando relevância personalizada sem poluir a interface.',
@@ -385,7 +385,7 @@ export const COPY_FORMULAS = [
     syntaxEn: 'See it, make it, try it, buy it',
     whyItWorks: 'Guia o cérebro através dos 4 degraus naturais de comprometimento psicológico: Curiosidade → Produção → Validação → Decisão.',
     examplesPt: [
-      'Veja, faça, experimente, compre. (Inspiria)',
+      'Veja, faça, experimente, compre. (Inspira)',
       'Descubra, aprenda, pratique, domine. (Educação)',
       'Inspire-se, planeie, reserve, viva. (Turismo)'
     ]

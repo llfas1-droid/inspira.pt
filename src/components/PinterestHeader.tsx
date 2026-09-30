@@ -34,7 +34,7 @@ export const PinterestHeader: React.FC<PinterestHeaderProps> = ({
             </div>
             <div className="flex items-baseline gap-1.5">
               <span className="font-extrabold text-xl tracking-tight text-[#E60023]">
-                Inspiria
+                Inspira
               </span>
               <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider">
                 pt
@@ -83,7 +83,7 @@ export const PinterestHeader: React.FC<PinterestHeaderProps> = ({
               }`}
             >
               <Layers className="w-3.5 h-3.5" />
-              <span className="hidden sm:inline">Página Inspiria</span>
+              <span className="hidden sm:inline">Página Inspira</span>
               <span className="sm:hidden">Página</span>
             </button>
             <button
@@ -135,8 +135,8 @@ export const PinterestHeader: React.FC<PinterestHeaderProps> = ({
             }`}
           >
             <MessageSquareText className="w-3.5 h-3.5 text-[#E60023]" />
-            <span className="hidden sm:inline">Inspiria Copilot</span>
-            <span className="sm:hidden">Chat</span>
+            <span className="hidden sm:inline">Agendar Reunião</span>
+            <span className="sm:hidden">Agendar</span>
           </button>
         </div>
 

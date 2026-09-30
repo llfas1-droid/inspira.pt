@@ -45,7 +45,7 @@ export const BenefitSectionTwo: React.FC<BenefitSectionTwoProps> = ({
       verbEn: 'Make it',
       icon: Hammer,
       headline: '2. Receitas Passo a Passo & Projetos DIY',
-      description: 'O Inspiria não guarda apenas fotos bonitas: cada item conecta-se à receita exata, ao molde do vestido ou à lista de ferramentas.',
+      description: 'O Inspira não guarda apenas fotos bonitas: cada item conecta-se à receita exata, ao molde do vestido ou à lista de ferramentas.',
       exampleAction: 'Acessa a lista de ingredientes (farinha tipo 00, ovos caipiras, manjericão fresco) e modo de preparo.',
       conversionRole: 'Meio de Funil (Consideração Prática)',
       tagColor: 'bg-amber-50 text-amber-700 border-amber-200'
@@ -98,7 +98,7 @@ export const BenefitSectionTwo: React.FC<BenefitSectionTwoProps> = ({
             Veja, faça, experimente, compre.
           </h2>
           <p className="mt-4 text-base sm:text-lg text-[#B85D19] font-medium max-w-2xl mx-auto">
-            As melhores ideias da internet estão no Inspiria.
+            As melhores ideias da internet estão no Inspira.
           </p>
         </div>
 

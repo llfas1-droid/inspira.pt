@@ -199,7 +199,7 @@ export const BenefitSectionOne: React.FC<BenefitSectionOneProps> = ({
                 className="w-full py-3 bg-[#E60023] hover:bg-[#c9001f] text-white text-xs sm:text-sm font-bold rounded-full shadow-md transition-all hover:scale-102 flex items-center justify-center gap-2"
               >
                 <Bookmark className="w-4 h-4 fill-current" />
-                <span>Explorar e Guardar Ideias no Inspiria</span>
+                <span>Explorar e Guardar Ideias no Inspira</span>
               </button>
             </div>
           </div>

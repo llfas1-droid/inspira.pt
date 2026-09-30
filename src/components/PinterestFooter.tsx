@@ -19,9 +19,9 @@ export const PinterestFooter: React.FC<PinterestFooterProps> = ({
           <div className="w-6 h-6 rounded-2xl bg-gradient-to-tr from-[#E60023] to-[#ff4d6d] flex items-center justify-center text-white font-extrabold text-xs">
             I
           </div>
-          <span className="font-bold text-slate-900">Inspiria Portugal</span>
+          <span className="font-bold text-slate-900">Inspira Portugal</span>
           <span className="text-slate-300">·</span>
-          <span>pt.inspiria.com</span>
+          <span>pt.inspira.com</span>
         </div>
 
         {/* Quiet Navigation Links */}
@@ -42,7 +42,7 @@ export const PinterestFooter: React.FC<PinterestFooterProps> = ({
 
         {/* Copyright & Disclaimer */}
         <div className="text-slate-400 text-[11px] text-center md:text-right">
-          © {new Date().getFullYear()} Inspiria · Estudo de Caso CRO, Descoberta Visual & Apoio ao Utilizador
+          © {new Date().getFullYear()} Inspira · Estudo de Caso CRO, Descoberta Visual & Apoio ao Utilizador
         </div>
       </div>
     </footer>

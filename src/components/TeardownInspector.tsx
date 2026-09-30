@@ -45,12 +45,12 @@ export const TeardownInspector: React.FC<TeardownInspectorProps> = ({
   const additionalConversions = optimizedConversions - baselineConversions;
 
   const handleCopyReport = () => {
-    const reportText = `# Teardown CRO & Messaging de pt.inspiria.com
+    const reportText = `# Teardown CRO & Messaging de pt.inspira.com
 ## 1. Mapeamento de Conteúdo
 - Seção 1 (Hero): Encontre a sua próxima [ideia para o jantar / ideia de decoração / look de outono]
 - Seção 2 (Mecanismo): Guarde as ideias de que gosta. Colecione as suas imagens favoritas para voltar a vê-las mais tarde.
-- Seção 3 (Resultado): Veja, faça, experimente, compre. As melhores ideias da internet estão no Inspiria.
-- Seção 4 (Parede de Aquisição): Bem-vindo(a) ao Inspiria. Encontre novas ideias para experimentar.
+- Seção 3 (Resultado): Veja, faça, experimente, compre. As melhores ideias da internet estão no Inspira.
+- Seção 4 (Parede de Aquisição): Bem-vindo(a) ao Inspira. Encontre novas ideias para experimentar.
 
 ## 2. Fórmulas de Copywriting
 - Inserção Dinâmica: Encontre a sua próxima [Desejo Específico de Nicho]
@@ -80,10 +80,10 @@ export const TeardownInspector: React.FC<TeardownInspectorProps> = ({
                 <span>Auditoria de Conversão & Psicologia de Produto</span>
               </div>
               <h1 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-                Teardown CRO: pt.inspiria.com
+                Teardown CRO: pt.inspira.com
               </h1>
               <p className="mt-2 text-sm sm:text-base text-slate-600 max-w-2xl leading-relaxed">
-                Desconstrução da arquitetura de aquisição de clientes da plataforma Inspiria:
+                Desconstrução da arquitetura de aquisição de clientes da plataforma Inspira:
                 fórmulas de copywriting, gatilhos de fricção zero, modelos comportamentais e assistente interativo com IA.
               </p>
             </div>
@@ -171,7 +171,7 @@ export const TeardownInspector: React.FC<TeardownInspectorProps> = ({
               }`}
             >
               <Sparkles className="w-3.5 h-3.5" />
-              <span>4. Gerador de Copy Inspiria</span>
+              <span>4. Gerador de Copy Inspira</span>
             </button>
 
             <button
@@ -426,7 +426,7 @@ export const TeardownInspector: React.FC<TeardownInspectorProps> = ({
                 Ferramenta para Especialistas de Crescimento
               </span>
               <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
-                Gerador de Copy no Padrão Inspiria
+                Gerador de Copy no Padrão Inspira
               </h2>
               <p className="text-xs sm:text-sm text-slate-500 mt-2">
                 Adapte a fórmula de descoberta visual, aversão à perda e clímax de 4 verbos para o seu próprio produto ou serviço.
@@ -584,7 +584,7 @@ export const TeardownInspector: React.FC<TeardownInspectorProps> = ({
 
                   <div className="p-5 bg-emerald-50 rounded-2xl border border-emerald-200">
                     <span className="text-[11px] font-bold text-emerald-800 uppercase tracking-wider block mb-1">
-                      Conversões Otimizadas Inspiria
+                      Conversões Otimizadas Inspira
                     </span>
                     <div className="text-2xl sm:text-3xl font-extrabold text-emerald-700 font-mono">
                       {optimizedConversions.toLocaleString('pt-PT')}

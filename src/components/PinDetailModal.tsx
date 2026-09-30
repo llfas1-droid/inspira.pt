@@ -116,7 +116,7 @@ export const PinDetailModal: React.FC<PinDetailModalProps> = ({
                 <span className="text-slate-400">·</span>
                 <span className="text-slate-700 font-medium">#InspiraçãoPortugal</span>
                 <span className="text-slate-400">·</span>
-                <span className="text-slate-700 font-medium">#Inspiria</span>
+                <span className="text-slate-700 font-medium">#Inspira</span>
               </div>
             </div>
 

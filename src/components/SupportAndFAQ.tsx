@@ -82,7 +82,7 @@ export const SupportAndFAQ: React.FC<SupportAndFAQProps> = ({
             </h1>
 
             <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
-              Consulte as respostas frequentes sobre o Inspiria, aprenda a salvar e organizar pastas ou entre em contacto com a nossa equipa de suporte dedicada.
+              Consulte as respostas frequentes sobre o Inspira, aprenda a salvar e organizar pastas ou entre em contacto com a nossa equipa de suporte dedicada.
             </p>
 
             {/* Search Input Bar */}
@@ -155,14 +155,14 @@ export const SupportAndFAQ: React.FC<SupportAndFAQProps> = ({
                 Nenhuma resposta encontrada para "{searchQuery}".
               </p>
               <p className="text-xs text-slate-400">
-                Tente outros termos ou fale diretamente com o Inspiria Copilot no chat interativo.
+                Tente outros termos ou fale diretamente com o Inspira Copilot no chat interativo.
               </p>
               <button
                 onClick={onOpenChat}
                 className="mt-2 px-4 py-2 rounded-full bg-[#E60023] text-white text-xs font-bold inline-flex items-center gap-1.5"
               >
                 <Sparkles className="w-3.5 h-3.5" />
-                <span>Abrir Inspiria Copilot</span>
+                <span>Abrir Inspira Copilot</span>
               </button>
             </div>
           ) : (
@@ -211,7 +211,7 @@ export const SupportAndFAQ: React.FC<SupportAndFAQProps> = ({
                   Assistente com IA em Tempo Real
                 </h3>
                 <p className="text-xs text-slate-500 mt-1 leading-relaxed">
-                  O nosso Inspiria Copilot está disponível 24/7 para responder a dúvidas e indicar ideias visuais.
+                  O nosso Inspira Copilot está disponível 24/7 para responder a dúvidas e indicar ideias visuais.
                 </p>
               </div>
               <button
@@ -239,7 +239,7 @@ export const SupportAndFAQ: React.FC<SupportAndFAQProps> = ({
                 </div>
                 <div>
                   <h4 className="text-xs font-bold text-slate-900">E-mail de Suporte</h4>
-                  <p className="text-[11px] text-slate-500 font-mono">suporte@inspiria.pt</p>
+                  <p className="text-[11px] text-slate-500 font-mono">suporte@inspira.pt</p>
                 </div>
               </div>
             </div>

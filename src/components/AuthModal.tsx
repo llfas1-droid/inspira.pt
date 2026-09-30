@@ -51,7 +51,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
               <Check className="w-8 h-8" />
             </div>
             <h3 className="text-xl font-extrabold text-slate-900">
-              Bem-vindo(a) ao Inspiria!
+              Bem-vindo(a) ao Inspira!
             </h3>
             <p className="text-xs text-slate-500">
               Conta conectada com sucesso. A carregar o seu feed personalizado...
@@ -59,14 +59,14 @@ export const AuthModal: React.FC<AuthModalProps> = ({
           </div>
         ) : (
           <>
-            {/* Inspiria Logo */}
+            {/* Inspira Logo */}
             <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-[#E60023] to-[#ff4d6d] flex items-center justify-center text-white font-black text-2xl mx-auto shadow-md mb-4">
               I
             </div>
 
             {/* Presumptive Close Headline */}
             <h3 className="text-2xl font-extrabold text-slate-900 tracking-tight">
-              Bem-vindo(a) ao Inspiria
+              Bem-vindo(a) ao Inspira
             </h3>
             <p className="text-xs sm:text-sm text-slate-600 mt-1 font-medium">
               Encontre novas ideias para experimentar.
@@ -181,7 +181,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
 
             {/* Legal / Micro-copy Disclaimer */}
             <p className="mt-4 text-[10px] text-slate-400 leading-tight">
-              Ao continuar, aceita os Termos de Serviço do Inspiria e confirma que leu a nossa Política de Privacidade.
+              Ao continuar, aceita os Termos de Serviço do Inspira e confirma que leu a nossa Política de Privacidade.
             </p>
           </>
         )}

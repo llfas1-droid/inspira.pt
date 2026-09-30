@@ -9,8 +9,8 @@ export const FAQ_ITEMS: FAQItem[] = [
   {
     id: 'faq-1',
     category: 'discovery',
-    question: 'Como funciona a descoberta visual no Inspiria?',
-    answer: 'O Inspiria organiza milhões de ideias através de um modelo "Scroll-to-Wall" baseado no Efeito Zeigarnik e em grelhas dinâmicas tipo masonry. Basta escolher ou digitar um interesse (como "ideia para o jantar" ou "look de outono") para aceder a um feed infinito focado 100% no conteúdo visual, sem ruído de notícias ou redes sociais tradicionais.'
+    question: 'Como funciona a descoberta visual no Inspira?',
+    answer: 'O Inspira organiza milhões de ideias através de um modelo "Scroll-to-Wall" baseado no Efeito Zeigarnik e em grelhas dinâmicas tipo masonry. Basta escolher ou digitar um interesse (como "ideia para o jantar" ou "look de outono") para aceder a um feed infinito focado 100% no conteúdo visual, sem ruído de notícias ou redes sociais tradicionais.'
   },
   {
     id: 'faq-2',
@@ -21,7 +21,7 @@ export const FAQ_ITEMS: FAQItem[] = [
   {
     id: 'faq-3',
     category: 'account',
-    question: 'Por que o Inspiria utiliza "Continuar com o Google" em vez de um cadastro longo?',
+    question: 'Por que o Inspira utiliza "Continuar com o Google" em vez de um cadastro longo?',
     answer: 'Adotamos o princípio de fricção zero de CRO (Conversion Rate Optimization). O botão "Continuar" reduz a barreira mental de preenchimento de formulários em mais de 40%, permitindo que aceda instantaneamente à sua conta através de Single Sign-On seguro.'
   },
   {
@@ -45,8 +45,8 @@ export const FAQ_ITEMS: FAQItem[] = [
   {
     id: 'faq-7',
     category: 'discovery',
-    question: 'Posso usar o Inspiria Copilot para tirar dúvidas ou pedir ideias?',
-    answer: 'Sim! O Inspiria Copilot é o nosso assistente inteligente (disponível no topo ou no canto inferior direito). Pode pedir receitas de última hora, dicas de decoração escandinava ou explorar a metodologia de conversão da nossa plataforma.'
+    question: 'Posso usar o Inspira Copilot para tirar dúvidas ou pedir ideias?',
+    answer: 'Sim! O Inspira Copilot é o nosso assistente inteligente (disponível no topo ou no canto inferior direito). Pode pedir receitas de última hora, dicas de decoração escandinava ou explorar a metodologia de conversão da nossa plataforma.'
   }
 ];
 
