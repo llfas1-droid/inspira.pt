@@ -1,0 +1,45 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // 1. Coleção catalogo:
+    // Acesso público de leitura; criação e atualização validadas por schema
+    match /catalogo/{itemId} {
+      allow read: if true;
+      allow create, update: if request.auth != null || (
+        request.resource.data.keys().hasAll(['nome', 'preco_unitario_centimos', 'moeda', 'unidade']) &&
+        request.resource.data.preco_unitario_centimos is number &&
+        request.resource.data.moeda == 'EUR'
+      );
+      allow delete: if true;
+    }
+
+    // 2. Coleção pedidos:
+    // Criação e atualização validadas com os campos obrigatórios do fluxo
+    match /pedidos/{pedidoId} {
+      allow read: if true;
+      allow create, update: if request.auth != null || (
+        request.resource.data.keys().hasAll(['nome', 'email', 'texto_original', 'data_criacao', 'estado']) &&
+        request.resource.data.nome is string &&
+        request.resource.data.email is string
+      );
+      allow delete: if true;
+    }
+
+    // 3. Coleção propostas:
+    // Criação e atualização validadas com token, número e total
+    match /propostas/{propostaId} {
+      allow read: if true;
+      allow create, update: if request.auth != null || (
+        request.resource.data.keys().hasAll(['numero', 'pedido_id', 'total_centimos', 'token', 'data_criacao']) &&
+        request.resource.data.total_centimos is number &&
+        request.resource.data.token is string
+      );
+      allow delete: if true;
+    }
+
+    // Bloqueia qualquer outra coleção ou caminho não definido
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

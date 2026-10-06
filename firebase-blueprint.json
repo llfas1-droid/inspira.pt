@@ -1,0 +1,81 @@
+{
+  "entities": {
+    "catalogoItem": {
+      "title": "CatalogoItem",
+      "description": "Item do catálogo oficial de produtos e serviços da Inspira",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "nome": { "type": "string" },
+        "descricao": { "type": "string" },
+        "unidade": { "type": "string", "enum": ["unidade", "hora", "pacote"] },
+        "preco_unitario_centimos": { "type": "number" },
+        "moeda": { "type": "string", "enum": ["EUR"] },
+        "ativo": { "type": "boolean" },
+        "condicoes": { "type": "string" },
+        "ambito_limitacoes": { "type": "string" },
+        "ficticio": { "type": "boolean" },
+        "criado_em": { "type": "string" },
+        "atualizado_em": { "type": "string" }
+      },
+      "required": ["nome", "preco_unitario_centimos", "moeda", "unidade"]
+    },
+    "pedido": {
+      "title": "Pedido",
+      "description": "Pedido de proposta submetido por um cliente",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "nome": { "type": "string" },
+        "email": { "type": "string" },
+        "texto_original": { "type": "string" },
+        "data_criacao": { "type": "string" },
+        "data_atualizacao": { "type": "string" },
+        "estado": {
+          "type": "string",
+          "enum": ["recebido", "em_analise", "necessita_revisao", "proposta_criada", "erro"]
+        },
+        "proposta_id": { "type": "string" }
+      },
+      "required": ["nome", "email", "texto_original", "data_criacao", "estado"]
+    },
+    "proposta": {
+      "title": "Proposta",
+      "description": "Proposta comercial gerada com base nos itens do catálogo",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "numero": { "type": "string" },
+        "pedido_id": { "type": "string" },
+        "data_criacao": { "type": "string" },
+        "data_validade": { "type": "string" },
+        "resumo_ambito": { "type": "string" },
+        "subtotal_centimos": { "type": "number" },
+        "total_centimos": { "type": "number" },
+        "condicoes": { "type": "string" },
+        "token": { "type": "string" },
+        "link_acesso": { "type": "string" },
+        "estado_notificacao": {
+          "type": "string",
+          "enum": ["por_enviar", "aceite_pelo_servico", "falhou", "nao_configurado"]
+        },
+        "ficticio": { "type": "boolean" }
+      },
+      "required": ["numero", "pedido_id", "total_centimos", "token", "data_criacao"]
+    }
+  },
+  "firestore": {
+    "/catalogo/{itemId}": {
+      "schema": { "$ref": "#/entities/catalogoItem" },
+      "description": "Catálogo público comercial de produtos e serviços"
+    },
+    "/pedidos/{pedidoId}": {
+      "schema": { "$ref": "#/entities/pedido" },
+      "description": "Pedidos de proposta registados no sistema"
+    },
+    "/propostas/{propostaId}": {
+      "schema": { "$ref": "#/entities/proposta" },
+      "description": "Propostas comerciais orçamentadas"
+    }
+  }
+}
