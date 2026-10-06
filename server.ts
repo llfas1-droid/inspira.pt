@@ -1254,6 +1254,25 @@ app.post('/api/chat', async (req: Request, res: Response) => {
 });
 
 // --------------------------------------------------------------------------
+// 9.1 Download do Relatório Executivo e Técnico do Projeto em PDF
+// --------------------------------------------------------------------------
+app.get(
+  ['/relatorio.pdf', '/api/relatorio.pdf', '/relatorio-projeto-inspira.pdf'],
+  (_req: Request, res: Response) => {
+    const pdfPath = path.resolve(__dirname, 'public', 'relatorio-projeto-inspira.pdf');
+    if (fs.existsSync(pdfPath)) {
+      res.setHeader('Content-Type', 'application/pdf');
+      res.setHeader(
+        'Content-Disposition',
+        'inline; filename="relatorio-projeto-inspira.pdf"'
+      );
+      return res.sendFile(pdfPath);
+    }
+    res.status(404).send('Relatório PDF não encontrado.');
+  }
+);
+
+// --------------------------------------------------------------------------
 // 10. Server Startup & Vite SPA Integration
 // --------------------------------------------------------------------------
 async function startServer() {
